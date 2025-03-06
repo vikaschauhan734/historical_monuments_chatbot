@@ -137,4 +137,4 @@ if user_input:
     st.session_state.state["messages"].append(HumanMessage(content=user_input))
     st.session_state.state = app.invoke(st.session_state.state)
     for message in st.session_state.state["messages"]:
-        st.write(message)
+        st.write(message.type, ": ", message.content)
