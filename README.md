@@ -58,11 +58,28 @@ SMTP_PASSWORD=your_smtp_password
 EMAIL_ADDRESS=your_email_address
 ```
 
-## Running the Streamlit Application
+## Run the Streamlit Application
 
 ```bash
 streamlit run app.py
 ```
+
+## Deployment
+
+The application is deployed on **Streamlit Community Cloud**. You can test it using the following link:
+
+[**Try the App**](https://historicalmonumentschatbot-hnwxubjbczxmupdp3ecd7j.streamlit.app)
+
+To deploy your own version on Streamlit Community Cloud:
+
+1. Push your repository to GitHub.
+2. Go to [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Sign in and click **New App**.
+4. Select your repository and branch.
+5. Configure any necessary environment variables in the **Secrets** section.
+6. Click **Deploy**.
+
+Your app will be live and accessible via a unique Streamlit URL.
 
 ## Usage
 
