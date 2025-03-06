@@ -29,7 +29,7 @@ Historical Agentic AI is a multi-agent conversational AI application built with 
 ### 1. Clone the repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/vikaschauhan734/historical_monuments_chatbot
 cd historical-agentic-ai
 ```
 
@@ -53,7 +53,7 @@ Create a `.env` file and add the following credentials:
 
 ```
 OPENAI_API_KEY=your_openai_api_key
-SERPAPI_API_KEY=your_serpapi_key
+GROQ_API_KEY=your_groqapi_key
 SMTP_PASSWORD=your_smtp_password
 EMAIL_ADDRESS=your_email_address
 ```
