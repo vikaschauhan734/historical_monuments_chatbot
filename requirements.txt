@@ -1,0 +1,15 @@
+# Langchain 
+langchain
+langchain-core
+langchain-groq
+langchain_openai
+langgraph
+langgraph-supervisor
+duckduckgo-search
+langchain_community
+
+# Load environment variables
+python-dotenv
+
+# Web Application
+streamlit
