@@ -18,7 +18,7 @@ import streamlit as st
 # Load environment variables
 load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-os.environ["SERPAPI_API_KEY"] = os.getenv("SERPAPI_API_KEY")
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 email_password=os.getenv("SMTP_PASSWORD")
 email_address=os.getenv("EMAIL_ADDRESS")
 
